@@ -37,3 +37,12 @@
 .bottom(@px){
 	bottom:unit(@px/37.5,rem);
 }
+.bg-color(@color){
+    background: @color;
+}
+.pre(@style,@value){
+    -webkit-@{style}: unit(@value/37.5,rem);
+       -moz-@{style}: unit(@value/37.5,rem);
+        -ms-@{style}: unit(@value/37.5,rem);
+         -o-@{style}: unit(@value/37.5,rem);
+}
