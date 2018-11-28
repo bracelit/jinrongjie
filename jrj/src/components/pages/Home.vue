@@ -46,7 +46,6 @@
 	<BackTop></BackTop>
 </div>
 </template>
-}}
 <script>
 import Vue from 'vue'
 import { InfiniteScroll,Indicator } from 'mint-ui';
